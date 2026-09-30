@@ -5,24 +5,27 @@
 }
 
 body {
-    background-color: aqua;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:red;
+    background-color: #7f9ec7;
+    padding: 20px;
+    color:rgb(0, 0, 0);
 }
 
 header {
-    background-color: rgb(198, 227, 250);
-    padding: 10px;
-    display: flex;
+    padding: 0px 20px;
+    margin-bottom:20px;
     justify-content: space-between;
-    padding-left: 20px;
-    scroll-padding-right: 20px;
-    align-items: center;
+    display: flex;
 }
 
-#topo {
-    display: flex;
-    justify-content: space-between;
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #1a348b;
 }
 
 #menu {
@@ -32,64 +35,30 @@ header {
     align-items: center;
 }
 
-a{
-    text-decoration: none;
-    color:blue;
-}
-
-a:hover {
-    color:rgb(68, 93, 100);
-}
-
-#logo {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    color:blueviolet
-}
-
-#logo img {
-    height: 50px;
-}
-
-#opcao-curiosidades a{
-    color: :antiquewhite;
-    display: flex;
-    gap: 30px;
-    font-weight: bold;
-}
-
 .letras_pequenas {
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
     text-transform: uppercase;
-    front-weight: bold;
+    font-weight: bold;
     font-size: x-small;
-    font-family: font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #introducao {
-    background-color: rgb(170, 191, 255);
     padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
 }
 
-#introducao h1 {
-    fonti-size: 60px;
+#introducao h2 {
+    font-size: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 #area-curiosidades {
-    background-color: rgb(181, 181, 255);
+    background-color: rgb(198, 227, 250);
     padding: 20px;
     border-style: solid;
     border-radius: 20px;
-    border-color: black;
+    border-color: rgb(162, 189, 211);
     margin: 20px;
     display: flex;
     gap: 20px;
@@ -100,7 +69,6 @@ a:hover {
     width: 450px;
     border-radius: 20px;
     padding: 5px;
-    background-color: blue;
 }
 
 #icone p {
@@ -111,14 +79,35 @@ a:hover {
 .curiosidade {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
-    background-color: rgb(223, 192, 196, 0.5);
+    background-color: rgb(172, 192, 247);
     border-radius: 20px;
     border-style: solid;
-    border-color: rgb(163, 133, 145, 0.5);
+    border-color: rgb(150, 169, 219);
     padding: 5px 20px ;
     margin-top: 10px;
     margin-bottom: 10px;
+}
 
+footer {
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #1a348b;
+}
+
+#links-rodape {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
